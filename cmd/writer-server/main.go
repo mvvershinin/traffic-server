@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github/mvvershinin/writer_server/config"
-	"github/mvvershinin/writer_server/pkg/proto/hello"
+	"github/mvvershinin/writer_server/internal/proto/hello"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 	"io"
